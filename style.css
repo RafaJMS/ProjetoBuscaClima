@@ -1,0 +1,73 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0;
+    color: aliceblue;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-maior{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 15px;
+}
+.box-cidadegrau{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+}
+.box-menor{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0; 
+}
+.texto-previsao,.grau-previsao{
+    margin: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.umidade{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.cidade-previsao{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    border-style: none;
+    outline: 0;
+    text-align: center;
+}   
+::placeholder{
+    text-align: center;
+    color: rgb(3, 49, 88);
+    opacity: 75%;
+}
+.imagem-previsao{
+    width: 60px;
+    padding: 0;
+}
